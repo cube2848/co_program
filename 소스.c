@@ -17,10 +17,8 @@
 int main()
 {
 	char arr[50];
-	int len;
-	len = strlen(arr);
-	printf("숫자입력 : ");
-	scanf_s("%s", arr);
+	scanf_s("숫자입력 : %s", arr);
+	int len = strlen(arr);
 
 	int front = 1; // 분리했을때 앞숫자 곱
 	int back = 1; // 분리했을때 뒷숫자 곱
