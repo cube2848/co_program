@@ -1,36 +1,121 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <Windows.h>
+#include <conio.h>
 
-//숫자입력받기
-//
-//입력받은숫자 앞에서부터 구간별 분리
-//
-//분리된 숫자들 곱하기
-//
-//곱해서 앞뒤가 일치하면 멈춤
-//
-//아니면 그 다음 분리해서 일치 할때까지 반복
-//
-//마지막까지 불일치 일 경우 유진수 아님으로 판별
+#define MAX 5
+#define UP 119
+#define DOWN 115
+#define RIGHT 100
+#define LEFT 97
+#define END 113
+
+void gotoxy(int x, int y);
+void go_up();
+void go_down();
+void go_right();
+void go_left();
+void end_game();
+
 
 int main()
 {
-	char arr[50];
-	scanf_s("숫자입력 : %s", arr);
-	int len = strlen(arr);
-
-	int front = 1; // 분리했을때 앞숫자 곱
-	int back = 1; // 분리했을때 뒷숫자 곱
-
-	for (int i = 0; i < len; i++)
+	char c;
+	for (int i = 0; i < MAX; i++)
 	{
-		front *= arr[i]; // 앞자리 숫자 곱
-		back *= arr[i]; // 뒷자리 숫자 곱
-		if (front == back) // 일치하면
-			break; // 멈춤
+		for (int j = 0; j < MAX; j++)
+		{
+			printf("X");
+		}
+		printf("\n");
+		switch (c)
+		{
+		case UP:
+			go_up;
+			break;
+		case DOWN:
+			go_down;
+			break;
+		case RIGHT:
+			go_right;
+			break;
+		case LEFT:
+			go_left;
+			break;
+		case END:
+			end_game;
+		}
 	}
-	printf(front == back ? "Yes" : "No");
 
 	return 0;
+}
+
+void gotoxy(int x, int y)
+{
+	COORD pos = { x,y };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+}
+
+void go_up(char c)
+{
+	int x = 0, y = 0;
+	gotoxy(x, y);
+	if (_kbhit())
+	{
+		c = _getch();
+		if (c == UP)
+		{
+			y++;
+		}
+	}
+}
+
+void go_down(char c)
+{
+	int x = 0, y = 0;
+	gotoxy(x, y);
+	if (_kbhit())
+	{
+		c = _getch();
+		if (c == UP)
+		{
+			y--;
+		}
+	}
+}
+
+void go_right(char c)
+{
+	int x = 0, y = 0;
+	gotoxy(x, y);
+	if (_kbhit())
+	{
+		c = _getch();
+		if (c == UP)
+		{
+			x++;
+		}
+	}
+}
+
+void go_left(char c)
+{
+	int x = 0, y = 0;
+	gotoxy(x, y);
+	if (_kbhit())
+	{
+		c = _getch();
+		if (c == UP)
+		{
+			x--;
+		}
+	}
+}
+
+void end_game(char c)
+{
+	c = _getch();
+	if (c == END)
+	{
+		exit(0);
+	}
 }
