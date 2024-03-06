@@ -1,34 +1,84 @@
 #include <stdio.h>
-#include <string.h>
-void eugine(char *val){
-    int temp[strlen(val)];
-    int i = 0;
-    int front = 1;
-    int back=1;
-    while (i<strlen(val)) {
-        temp[i] = (int)(val[i] - 48);
-        i++;
+#include <stdbool.h>
+
+void Map(int x, int y){
+    for (int i = 4; i >=0; --i) {
+        for (int j = 0; j < 5; ++j) {
+            if(i == y && j == x){
+                printf("K ");
+                continue;
+            }
+            printf("x ");
+        }
+        printf("\n");
     }
-    for (int j = 1; j < strlen(val); ++j) {
-        for (int k = 0; k < j; ++k) {
-            front = front * temp[k];
+}
+
+bool Available(int x, int y){
+    if(x<0 || x>4){
+        return false;
+    }
+    if(y<0 || y>4){
+        return false;
+    }
+    return true;
+}
+
+void Command(int x, int y){
+    char cmd;
+    printf("Command : ");
+    scanf("%c",&cmd);
+    printf("\n %c",cmd);
+
+    switch (cmd) {
+        case 'w':{
+            if(Available(x,y+1)==false){
+                Map(x,y);
+                break;
+            }
+            Map(x,y+1);
+            y++;
+            break;
         }
-        for (int g = j; g < strlen(val); ++g) {
-            back = back * temp[g];
+        case 'a':{
+            if(Available(x-1,y)==false){
+                Map(x,y);
+                break;
+            }
+            Map(x-1,y);
+            x--;
+            break;
         }
-        if (front == back){
-            printf("YES");
+        case 's':{
+            if(Available(x,y-1)==false){
+                Map(x,y);
+                break;
+            }
+            Map(x,y-1);
+            y--;
+            break;
+        }
+        case 'd':{
+            if(Available(x+1,y)==false){
+                Map(x,y);
+                break;
+            }
+            Map(x+1,y);
+            x++;
+            break;
+        }
+        case 'q':
             return;
-        }
-        front = 1;
-        back = 1;
+        default:
+            Map(x,y);
+            break;
     }
-    printf("NO");
+
+    Command(x,y);
 }
 
 int main(){
-    char str[10];
-    scanf("%s", str);
-    eugine(str);
+    Map(2,0);
+    Command(2,0);
     return 0;
 }
