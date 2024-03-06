@@ -28,7 +28,6 @@ void Command(int x, int y){
     char cmd;
     printf("Command : ");
     scanf("%c",&cmd);
-    printf("\n %c",cmd);
 
     switch (cmd) {
         case 'w':{
