@@ -29,3 +29,4 @@ void chain(int x, int count, int original) {
         chain((back*10)+(front+back),count,original);
     }
 }
+
