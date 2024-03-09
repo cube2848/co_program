@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/workspace/Doccument/co_program/cmake-build-debug",
-		"source" : "D:/workspace/Doccument/co_program"
+		"build" : "D:/workspace/document/c/co_program/cmake-build-debug",
+		"source" : "D:/workspace/document/c/co_program"
 	},
 	"version" : 
 	{

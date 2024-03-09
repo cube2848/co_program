@@ -1,0 +1,3 @@
+"D:\workspace\program\ide\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\co_program.dir/objects.a
+"D:\workspace\program\ide\CLion 2023.3.4\bin\mingw\bin\ar.exe" qc CMakeFiles\co_program.dir/objects.a @CMakeFiles\co_program.dir\objects1.rsp
+"D:\workspace\program\ide\CLion 2023.3.4\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\co_program.dir/objects.a -Wl,--no-whole-archive -o co_program.exe -Wl,--out-implib,libco_program.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\co_program.dir\linkLibs.rsp
