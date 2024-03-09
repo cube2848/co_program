@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\3\uC77C\uCC28.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|solutionrelative:3\uC77C\uCC28.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|solutionrelative:\uC18C\uC2A4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|solutionrelative:\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\3\uC77C\uCC28.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39C115E8-6DBC-4CD1-9295-FE36824B714B}|co_program.vcxproj|solutionrelative:3\uC77C\uCC28.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\uC18C\uC2A4.h",
-              "DocumentMoniker": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.h",
-              "RelativeDocumentMoniker": "\uC18C\uC2A4.h",
-              "ToolTip": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.h",
-              "RelativeToolTip": "\uC18C\uC2A4.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-07T09:30:24.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "3\uC77C\uCC28.c",
               "DocumentMoniker": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\3\uC77C\uCC28.c",
               "RelativeDocumentMoniker": "3\uC77C\uCC28.c",
               "ToolTip": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\3\uC77C\uCC28.c",
               "RelativeToolTip": "3\uC77C\uCC28.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-07T08:57:50.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "\uC18C\uC2A4.c",
               "DocumentMoniker": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.c",
               "RelativeDocumentMoniker": "\uC18C\uC2A4.c",
               "ToolTip": "C:\\Users\\khg20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB529_\uC5F0\uC2B5\\co_program\\\uC18C\uC2A4.c",
               "RelativeToolTip": "\uC18C\uC2A4.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-07T08:57:14.373Z",
               "EditorCaption": ""

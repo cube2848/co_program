@@ -1,3 +1,4 @@
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
@@ -9,7 +10,7 @@ int main()
 	char temp[2];
 
 	printf("숫자입력 : ");
-	scanf_s("%s", &arr, 3);
+	scanf_s("%s", &arr, sizeof(arr));
 
 	//change = arr - '0';
 
@@ -75,3 +76,4 @@ int main()
 //	
 //	return 0;
 //}
+*/

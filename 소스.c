@@ -1,113 +1,91 @@
-/*
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
+// 랜덤하게 배열을 나열해서, 처음부터 대조해 나가기
+// 다음 숫자와 현재 숫자가 일치하면 
+// 홀수일때 : 2로 나눈 나머지가 5 넘으면 안됨
+// 짝수일때 : 2로 나눈 몫보다 크면 안됨
 
 
-int x = 2;
-int y = 4;
+int DATE = 10;
 
-void map()
-{
-	for (int i = 0; i < 5; i++)
-	{
-		for (int j = 0; j < 5; j++)
-		{
-			if (x == j && y == i)
-			{
-				printf("K");
-				continue;
-			}
-			printf("X");
-		}
-		printf("\n");
-
-	}
-}
-
-void go_up()
-{
-	if (y - 1 < 0)
-	{
-		map();
-		return;
-	}
-	y--;
-	map();
-}
-
-
-void go_down()
-{
-	if (y + 1 > 4)
-	{
-		map();
-		return;
-	}
-	y++;
-	map();
-}
-
-void go_right()
-{
-	if (x + 1 > 4)
-	{
-		map();
-		return;
-	}
-	x++;
-	map();
-}
-
-void go_left()
-{
-	if (x - 1 < 0)
-	{
-		map();
-		return;
-	}
-	x--;
-	map();
-}
-
-void end_game()
-{
-	exit(0);
-}
 
 int main()
 {
-	char c;
-	map();
+	int date;
+	scanf_s("%d", &date);
+	int a[100];
+	srand(time(NULL));
+	int x;
+	x = rand() & DATE;
+	a[0] = x;
+	int check[10] = { 0, };
 
-	while (1)
+	int idx;
+	for (int j = 0; j < DATE; j++)
 	{
-		printf("command : ");
-		scanf_s(" %c", &c, 1);
+		idx = a[j];
+		check[idx]++;
+	}
 
-
-		switch (c)
+	printf("중복된 원소 : ");
+	for(int j=0; j<10;j++)
+	{
+		if(check[j]>=2)
 		{
-		case 'w':
-			go_up();
-			break;
-		case 's':
-			go_down();
-			break;
-		case 'd':
-			go_right();
-			break;
-		case 'a':
-			go_left();
-			break;
-		case 'q':
-			end_game();
-			break;
-		default:
-			map();
-			break;
+			printf("%d", j);
+
+	for (int i = 0; i < DATE; i++)
+	{
+		
+	}
+	//int n = 1;
+	//while (n < DATE)
+	//{
+	//	x = rand() % DATE;
+
+	//	int i = 0;
+	//	int isin = 0;
+	//	while (i < n)
+	//	{
+	//		if (a[i] == x)
+	//		{
+	//			isin += 1;
+	//		}
+	//		i += 1;
+	//	}
+	//	if (isin == 0)
+	//	{
+	//		a[n] = x;
+	//	}
+	//	else if (isin > 0)
+	//	{
+	//		continue;
+	//	}
+	//	n += 1;
+
+	//	int count = 0;
+	//	while (count < DATE)
+	//	{
+	//		printf("%d ", x[count] + 1);
+	//		count += 1;
 		}
 	}
 
+
+	//int* numPtr = malloc(sizeof(int) * DATE);
+	//
+	//for (int i = 0; i < DATE; i++)
+	//{
+	//	numPtr[i] = i;
+	//}
+	//for (int i = 0; i < DATE; i++)
+	//{
+	//	printf("%d\n", numPtr[i]);
+	//}
+	//free(numPtr);
+
+	
 	return 0;
 }
-*/
