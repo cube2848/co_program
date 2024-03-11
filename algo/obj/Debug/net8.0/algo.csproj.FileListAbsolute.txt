@@ -1,0 +1,15 @@
+D:\workspace\document\c\co_program\algo\bin\Debug\net8.0\algo.exe
+D:\workspace\document\c\co_program\algo\bin\Debug\net8.0\algo.deps.json
+D:\workspace\document\c\co_program\algo\bin\Debug\net8.0\algo.runtimeconfig.json
+D:\workspace\document\c\co_program\algo\bin\Debug\net8.0\algo.dll
+D:\workspace\document\c\co_program\algo\bin\Debug\net8.0\algo.pdb
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.AssemblyInfoInputs.cache
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.AssemblyInfo.cs
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.csproj.CoreCompileInputs.cache
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.sourcelink.json
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.dll
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\refint\algo.dll
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.pdb
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\algo.genruntimeconfig.cache
+D:\workspace\document\c\co_program\algo\obj\Debug\net8.0\ref\algo.dll
