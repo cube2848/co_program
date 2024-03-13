@@ -1,2 +1,3 @@
 
-—csharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ÝŠ­þøÿÿÿÿJ$2b69ceba-58e5-4941-aa15-07aa7e04edba
+žcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ÝŠ­þøÿÿÿÿ8³Óß³ã1J$123d5789-e637-4da5-84b7-8438611c5a40
+¡csharpsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¼ž®Èùÿÿÿÿ8ý¶¢´ã1J$639651d6-450e-4570-ba8c-2d5b54b2fdd9

@@ -1,35 +1,64 @@
-﻿namespace algo;
+﻿using System.Text;
+
+namespace algo;
 
 class Program
 {
     static void Main(string[] args)
     {
-        int N =int.Parse(System.Console.ReadLine());
-        string[] str = new string[N];
-        int sum = 0;
-        int stack = 1;
-        for (int i = 0; i<N; i++)
+        int num = int.Parse(System.Console.ReadLine());
+        string str;
+        List<List<int>> lists = new List<List<int>>();
+        for (int i = 0; i < num; i++)
         {
-            str[i] = System.Console.ReadLine();
+            str = System.Console.ReadLine();
+            string[] words = str.Split(' ');
+            var l = new List<int>();
+            foreach (var VARIABLE in words)
+            {
+                l.Add(int.Parse(VARIABLE));
+            }
+            lists.Add(l);
         }
 
-        for (int j = 0; j < N; j++)
+        int[] count = new int [num];
+        List<int> exist = new List<int>();
+        for (int i = 0; i<num; i++)
         {
-            sum = 0;
-            stack = 1;
-            foreach (var VARIABLE in str[j])
+            for (int j = i+1; j<5; j++)
             {
-                if (VARIABLE == 'O')
+                for (int k = 0; k<num; k++)
                 {
-                    sum = sum + stack;
-                    stack++;
-                }
-                else
-                {
-                    stack = 1;
+                    if (i == k)
+                    {
+                        continue;
+                    }
+                        
+                    if (exist.Contains(k))
+                    {
+                        continue;
+                    }
+                    if (lists[i][j] == lists[k][j])
+                    {
+                        count[i]++;
+                        exist.Add(k);
+                    }
                 }
             }
-            Console.WriteLine(sum);
+            exist.Clear();
         }
+
+        int res = 0;
+        int max = count[0];
+        for (int k = 1; k < num; k++)
+        {
+            if (count[k] > max)
+            {
+                max = count[k];
+                res = k;
+            }
+        }
+
+        Console.WriteLine(res+1);
     }
 }
