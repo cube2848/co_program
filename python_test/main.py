@@ -1,16 +1,28 @@
-import random
+a = input()
+b = list(a)
+n = a.lower()
 
-for i in range(1,6):
-    print(str(i) + "번 학생",end=' ')
-    for j in range(1,6):
-        print(random.randint(1,9),end=' ')
-    print(end='\n')
-
-
-count = 0 ## 겹치는 수
-Class = 0 ## 공통되는거 찾기
-grade = 0 ## 학년
-for k in range(1,6):
-    for n in range(1,6):
-        if grade[n].Class[i] == grade[n].Class[i+1]:
+count = 0 # 중복된 수
+max = []
+for i in range(len(n)):
+    count = 0
+    for j in range(len(n)):
+        if b[i] == b[j]:
             count = count + 1
+    max[i] = count
+
+maxvalue = max[0]
+for k in range(1,len(max)):
+    if maxvalue < max[k]:
+        maxvalue = max[k]
+print(maxvalue)
+
+
+
+
+
+# for i in range(len(n)):
+#     if 65 <= ord(n[i]) <= 90:
+#         print(chr(ord(n[i]) + 32),end='')
+#     else:
+#         print(chr(ord(n[i]) - 32),end='')
