@@ -1,64 +1,57 @@
-﻿using System.Text;
-
-namespace algo;
+﻿namespace algo;
 
 class Program
 {
     static void Main(string[] args)
     {
-        int num = int.Parse(System.Console.ReadLine());
-        string str;
-        List<List<int>> lists = new List<List<int>>();
-        for (int i = 0; i < num; i++)
+        string words = System.Console.ReadLine();//문자열
+        words = words.ToUpper();//대문자화
+        char[] arr;
+        arr = words.ToCharArray(0, words.Length);//문자 배열
+        var query = (from n in arr orderby n select n).ToArray();
+        Dictionary<char, int> kv = new Dictionary<char, int>();
+        List<int> a = new List<int>();
+        int stack = 0;
+        char cur = query[0];
+        foreach (var VARIABLE in query)
         {
-            str = System.Console.ReadLine();
-            string[] words = str.Split(' ');
-            var l = new List<int>();
-            foreach (var VARIABLE in words)
+            if (VARIABLE != cur)
             {
-                l.Add(int.Parse(VARIABLE));
+                kv.Add(cur,stack);
+                a.Add(stack);
+                stack = 1;
+                cur = VARIABLE;
             }
-            lists.Add(l);
+            else
+            {
+                stack++;
+            }
+        }
+        kv.Add(cur, stack);
+        a.Add(stack);
+        int max = a.Max();
+        int same = 0;
+        foreach (var VARIABLE in kv.Keys)
+        {
+            if (kv[VARIABLE] == max)
+            {
+                same++;
+            }
         }
 
-        int[] count = new int [num];
-        List<int> exist = new List<int>();
-        for (int i = 0; i<num; i++)
+        if (same == 1)
         {
-            for (int j = i+1; j<5; j++)
+            foreach (var VARIABLE in kv.Keys)
             {
-                for (int k = 0; k<num; k++)
+                if (kv[VARIABLE] == max)
                 {
-                    if (i == k)
-                    {
-                        continue;
-                    }
-                        
-                    if (exist.Contains(k))
-                    {
-                        continue;
-                    }
-                    if (lists[i][j] == lists[k][j])
-                    {
-                        count[i]++;
-                        exist.Add(k);
-                    }
+                    Console.WriteLine(VARIABLE);
                 }
             }
-            exist.Clear();
         }
-
-        int res = 0;
-        int max = count[0];
-        for (int k = 1; k < num; k++)
+        else
         {
-            if (count[k] > max)
-            {
-                max = count[k];
-                res = k;
-            }
+            Console.WriteLine("?");
         }
-
-        Console.WriteLine(res+1);
     }
 }
