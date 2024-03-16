@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\AlgoTest.csproj": {}
+  },
+  "projects": {
+    "D:\\workspace\\document\\c\\co_program\\algo\\algo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\document\\c\\co_program\\algo\\algo.csproj",
+        "projectName": "algo",
+        "projectPath": "D:\\workspace\\document\\c\\co_program\\algo\\algo.csproj",
+        "packagesPath": "C:\\Users\\linalan\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\document\\c\\co_program\\algo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\linalan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\linalan\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\AlgoTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\AlgoTest.csproj",
+        "projectName": "AlgoTest",
+        "projectPath": "D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\AlgoTest.csproj",
+        "packagesPath": "C:\\Users\\linalan\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\linalan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\workspace\\document\\c\\co_program\\algo\\algo.csproj": {
+                "projectPath": "D:\\workspace\\document\\c\\co_program\\algo\\algo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\linalan\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

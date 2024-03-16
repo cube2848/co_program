@@ -13,6 +13,19 @@
 
     <ItemGroup>
       <Compile Remove="result\7day.cs" />
+      <Compile Remove="AlgorithmTest\GlobalUsings.cs" />
+      <Compile Remove="AlgorithmTest\**" />
+      <Compile Remove="AlgoTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="AlgorithmTest\**" />
+      <EmbeddedResource Remove="AlgoTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="AlgorithmTest\**" />
+      <None Remove="AlgoTest\**" />
     </ItemGroup>
 
 </Project>
