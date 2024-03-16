@@ -4,54 +4,56 @@ class Program
 {
     static void Main(string[] args)
     {
-        string words = System.Console.ReadLine();//문자열
-        words = words.ToUpper();//대문자화
-        char[] arr;
-        arr = words.ToCharArray(0, words.Length);//문자 배열
-        var query = (from n in arr orderby n select n).ToArray();
-        Dictionary<char, int> kv = new Dictionary<char, int>();
-        List<int> a = new List<int>();
-        int stack = 0;
-        char cur = query[0];
-        foreach (var VARIABLE in query)
+        var nums = Input();
+        foreach (var VARIABLE in nums)
         {
-            if (VARIABLE != cur)
-            {
-                kv.Add(cur,stack);
-                a.Add(stack);
-                stack = 1;
-                cur = VARIABLE;
-            }
-            else
-            {
-                stack++;
-            }
+            bool ret = Algorithm(VARIABLE);
+            Output(ret);
         }
-        kv.Add(cur, stack);
-        a.Add(stack);
-        int max = a.Max();
-        int same = 0;
-        foreach (var VARIABLE in kv.Keys)
+    }
+    private static List<string> Input()
+    {
+        List<string> nums = new List<string>();
+        string temp;
+        while (true)
         {
-            if (kv[VARIABLE] == max)
+            temp = Console.ReadLine();
+            if (temp == "0")
             {
-                same++;
+                break;
             }
+            nums.Add(temp);
         }
 
-        if (same == 1)
+        return nums;
+    }
+    private static bool Algorithm(string str)
+    {
+        int last = str.Length;
+        for (int i = 0; i<str.Length; )
         {
-            foreach (var VARIABLE in kv.Keys)
+            if (i==last)
             {
-                if (kv[VARIABLE] == max)
-                {
-                    Console.WriteLine(VARIABLE);
-                }
+                return true;
+            }else if(str[i]!=str[last-1])
+            {
+                return false;
             }
+
+            i++;
+            last--;
+        }
+        return true;
+    }
+    private static void Output(bool ret)
+    {
+        if (ret == true)
+        {
+            Console.WriteLine("yes");
         }
         else
         {
-            Console.WriteLine("?");
+            Console.WriteLine("no");
         }
     }
 }

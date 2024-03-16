@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("algo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ee18539b0d28ceacd2a109c0ed4f63458dfadd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a958d35e091691630a2b88ceedeee33bbb494f44")]
 [assembly: System.Reflection.AssemblyProductAttribute("algo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("algo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
