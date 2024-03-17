@@ -1,11 +1,9 @@
-age = int(input())
-balance = 9000 # 교통카드 잔액
+a = int(input())
+k = 1350
 
-if 7 <= age <= 12:
-    balance = balance - 650
-elif 13 <= age <= 18:
-    balance = balance - 1050
-elif age >= 19:
-    balance = balance - 1250
-
-print(balance)
+while a > 0:
+    a = a - k
+    if a < 0:
+        continue
+    else:
+        print(a)

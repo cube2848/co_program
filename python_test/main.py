@@ -1,28 +1,34 @@
-a = input()
-b = list(a)
-n = a.lower()
+N = int(input())
+st = []
 
-count = 0 # 중복된 수
-max = []
-for i in range(len(n)):
-    count = 0
-    for j in range(len(n)):
-        if b[i] == b[j]:
-            count = count + 1
-    max[i] = count
+for i in range(N):
+    st.append((input()))
 
-maxvalue = max[0]
-for k in range(1,len(max)):
-    if maxvalue < max[k]:
-        maxvalue = max[k]
-print(maxvalue)
+
+for j in range(0, len(st)):
+    a = len(j)
+    b = (len(j) // 2) + 1
+    for k in range(0, len(st[j])):
+        if len(j) != 0:
+            if j[k] == j[-k]:
 
 
 
 
 
-# for i in range(len(n)):
-#     if 65 <= ord(n[i]) <= 90:
-#         print(chr(ord(n[i]) + 32),end='')
-#     else:
-#         print(chr(ord(n[i]) - 32),end='')
+
+# a = input().split()
+# b = len(a)
+# c = (b // 2) + 1
+# count = 0
+#
+# for i in range(0, b):
+#     for j in range(0, c):
+#         if b % 2 != 0:
+#             if a[i] == a[-j]:
+#                 count += 1
+#                 if count // 2 == 0:
+#                     print('yes')
+#
+#         elif b % 2 == 0:
+#             print('no')
