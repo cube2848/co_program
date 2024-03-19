@@ -8,14 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="result\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Remove="result\7day.cs" />
       <Compile Remove="AlgorithmTest\GlobalUsings.cs" />
       <Compile Remove="AlgorithmTest\**" />
       <Compile Remove="AlgoTest\**" />
+      <Compile Remove="result\8day.cs" />
+      <Compile Remove="result\9day.cs" />
     </ItemGroup>
 
     <ItemGroup>
@@ -26,6 +24,10 @@
     <ItemGroup>
       <None Remove="AlgorithmTest\**" />
       <None Remove="AlgoTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="result\" />
     </ItemGroup>
 
 </Project>

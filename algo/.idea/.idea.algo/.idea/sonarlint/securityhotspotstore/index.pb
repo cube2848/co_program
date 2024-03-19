@@ -18,3 +18,7 @@ B
 AlgoTest/Input.txt,a\f\af285fac5453c4ae004fee304fe80317af58b75d
 C
 AlgoTest/Output.txt,e\7\e702a857b93c27114872d8cca8afd17f43ba6c75
+>
+result/8day.cs,6\a\6a4e43c6e84adac8c2313174930c904fd0e8ec72
+>
+result/9day.cs,c\f\cfc5df698069690973b09596adb325b9d92a2ee9

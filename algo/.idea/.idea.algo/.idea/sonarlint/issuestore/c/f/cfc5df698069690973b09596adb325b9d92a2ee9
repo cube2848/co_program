@@ -1,0 +1,6 @@
+
+ucsharpsquid:S101"RRename struct 'inputs' to match pascal case naming rules, consider using 'Inputs'.(ëõñğ8“­ ¬å1
+xcsharpsquid:S1118L"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(İŠ­şøÿÿÿÿ8”­ ¬å1
+hcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(‚Îóå8”­ ¬å1
+mcsharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(ğÑÉìøÿÿÿÿ8•­ ¬å1
