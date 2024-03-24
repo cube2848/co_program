@@ -1,4 +1,4 @@
-def Input():
+def Input(): # 10개 입력받아서 리스트로 출력
     score = []
     for i in range(0, 10):
         score.append(int(input()))
