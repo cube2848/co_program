@@ -1,0 +1,11 @@
+
+tcsharpsquid:S1125A"*Remove the unnecessary Boolean literal(s).(®„ş÷8øèïè1J$dc5e6b70-c9d3-46e6-bb5c-7c8c82473e23
+csharpsquid:S1118]"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(İŠ­şøÿÿÿÿ8ã÷Åè1J$5f343e47-d7be-4289-b756-03ee3f11b848
+™csharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ûı•8ã÷Åè1J$2e79e288-b312-40fa-a689-b05fe6b597cc
+¡csharpsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(åºÏæıÿÿÿÿ8„şè1J$6d034122-e56b-42a1-a482-f7f64194551b
+ycsharpsquid:S10668"/Merge this if statement with the enclosing one.(ôúò8‡„‹è1J$1f7996c6-e83d-49db-90a9-93463f092179
+csharpsquid:S2589A"DChange this condition so that it does not always evaluate to 'True'.(®„ş÷8´‡è1J$55ae48a8-bc62-4035-a3e9-d6aacdeb5fcf
+csharpsquid:S25896"EChange this condition so that it does not always evaluate to 'False'.(Ş—áÒ8´‡è1J$55d3a11b-ccad-4f80-abcf-3e6ff2a2b75f
+°csharpsquid:S2583"fChange this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.(ÍÊëÌ8¶É‡è1J$25ca6991-5963-4d62-9f10-f881b472b706
+csharpsquid:S2589+"EChange this condition so that it does not always evaluate to 'False'.(­ÈÏÏ8´‡è1J$9a5f3108-ec84-4497-9076-858c0377c51b
+hcsharpsquid:S125G"Remove this commented out code.(Ú°à¬8 Öíè1J$56836a8c-16a3-4e23-aadd-f3342d3c7cb7

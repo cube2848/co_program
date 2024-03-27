@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/workspace/document/c/co_program/base.c">
+		<Unit filename="D:/workspace/document/c/co_program/base.cpp">
 			<Option target="co_program"/>
 		</Unit>
 		<Unit filename="D:/workspace/document/c/co_program/CMakeLists.txt">

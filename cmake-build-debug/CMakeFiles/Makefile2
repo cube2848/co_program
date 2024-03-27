@@ -80,12 +80,12 @@ clean: CMakeFiles/co_program.dir/clean
 CMakeFiles/co_program.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\document\c\co_program\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target co_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\document\c\co_program\cmake-build-debug\CMakeFiles --progress-num= "Built target co_program"
 .PHONY : CMakeFiles/co_program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/co_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\document\c\co_program\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\document\c\co_program\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/co_program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\document\c\co_program\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/co_program.dir/rule

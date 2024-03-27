@@ -128,30 +128,6 @@ co_program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/build
 .PHONY : co_program/fast
 
-base.obj: base.c.obj
-.PHONY : base.obj
-
-# target to build an object file
-base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/base.c.obj
-.PHONY : base.c.obj
-
-base.i: base.c.i
-.PHONY : base.i
-
-# target to preprocess a source file
-base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/base.c.i
-.PHONY : base.c.i
-
-base.s: base.c.s
-.PHONY : base.s
-
-# target to generate assembly for a file
-base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\co_program.dir\build.make CMakeFiles/co_program.dir/base.c.s
-.PHONY : base.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +137,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... co_program
-	@echo ... base.obj
-	@echo ... base.i
-	@echo ... base.s
 .PHONY : help
 
 

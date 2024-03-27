@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6628cb285b309ecf2a5a600ddc84db1c9c9c01e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

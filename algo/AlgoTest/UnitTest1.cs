@@ -5,30 +5,24 @@ using algo;
 [TestClass]
 public class UnitTest1
 {
-    private List<Algo.inputs> InputFile()
+    private List<int> InputFile()
     {
-        var list = new List<Algo.inputs>();
+        var list = new List<int>();
         var sr = new StreamReader("D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\Input.txt");
-        int N = int.Parse(sr.ReadLine());
-        for (int i = 0; i<N; i++)
+        for (int i = 0; i<10; i++)
         {
-            string temp = sr.ReadLine();
-            var variable = temp.Split(' ');
-            var strv = new Algo.inputs();
-            strv.value = double.Parse(variable[0]);
-            strv.unit = variable[1];
-            list.Add(strv);
+            list.Add(int.Parse(sr.ReadLine()));
         }
 
         return list;
     }
-    private List<string> OutputFile()
+    private List<int> OutputFile()
     {
-        var list = new List<string>();
+        var list = new List<int>();
         var sr = new StreamReader("D:\\workspace\\document\\c\\co_program\\algo\\AlgoTest\\Output.txt");
         while (sr.Peek() >= 0)
         {
-            list.Add(sr.ReadLine());
+            list.Add(int.Parse(sr.ReadLine()));
         }
         sr.Close();
         return list;
@@ -38,14 +32,9 @@ public class UnitTest1
     {
         var i = InputFile();
         var o = OutputFile();
-        for (int j = 0; j<o.Count; j++)
+        if (Algo.Algorithm(i.ToArray()) != o[0])
         {
-            var algores = Algo.Algorithm(i[j].unit, i[j].value);
-            var result = algores.value.ToString("F4") + " " + algores.unit;
-            if (result != o[j])
-            {
-                Assert.Fail("틀렸습니다.");
-            }
+            Assert.Fail($"틀렸습니다. : {Algo.Algorithm(i.ToArray())}");
         }
         
     }

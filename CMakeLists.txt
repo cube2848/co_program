@@ -4,4 +4,5 @@ project(co_program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(co_program
-        base.c)
+        base.cpp
+        base.cpp)
