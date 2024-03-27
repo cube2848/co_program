@@ -1,3 +1,6 @@
+//1259 - Palindrome Number
+//https://www.acmicpc.net/problem/1259
+
 namespace algo
 {
     public class Algo

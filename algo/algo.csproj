@@ -16,6 +16,8 @@
       <Compile Remove="result\9day.cs" />
       <Compile Remove="result\10days.cs" />
       <Compile Remove="result\11day.cs" />
+      <Compile Remove="result\12days.cs" />
+      <Compile Remove="result\13days.cs" />
     </ItemGroup>
 
     <ItemGroup>

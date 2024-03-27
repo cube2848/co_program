@@ -1,11 +1,12 @@
 
-tcsharpsquid:S1125A"*Remove the unnecessary Boolean literal(s).(ÆÑ˛˜8¯ËÔèË1J$dc5e6b70-c9d3-46e6-bb5c-7c8c82473e23
-ûcsharpsquid:S1118]"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(›ä≠˛¯ˇˇˇˇ8„˜≈èË1J$5f343e47-d7be-4289-b756-03ee3f11b848
-ôcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(˚˝ùï8„˜≈èË1J$2e79e288-b312-40fa-a689-b05fe6b597cc
-°csharpsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Â∫œÊ˝ˇˇˇˇ8Ñù˛èË1J$6d034122-e56b-42a1-a482-f7f64194551b
-ycsharpsquid:S10668"/Merge this if statement with the enclosing one.(Ù˙Úù8áÑãêË1J$1f7996c6-e83d-49db-90a9-93463f092179
-écsharpsquid:S2589A"DChange this condition so that it does not always evaluate to 'True'.(ÆÑ˛˜8¥ùáêË1J$55ae48a8-bc62-4035-a3e9-d6aacdeb5fcf
-ècsharpsquid:S25896"EChange this condition so that it does not always evaluate to 'False'.(ﬁó·“8¥ùáêË1J$55d3a11b-ccad-4f80-abcf-3e6ff2a2b75f
-∞csharpsquid:S2583"fChange this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.(Õ ÎÃ8∂…áêË1J$25ca6991-5963-4d62-9f10-f881b472b706
-ècsharpsquid:S2589+"EChange this condition so that it does not always evaluate to 'False'.(≠»œœ8¥ùáêË1J$9a5f3108-ec84-4497-9076-858c0377c51b
-hcsharpsquid:S125G"Remove this commented out code.(⁄∞‡¨8†÷ÌèË1J$56836a8c-16a3-4e23-aadd-f3342d3c7cb7
+tcsharpsquid:S1125I"*Remove the unnecessary Boolean literal(s).(ÆÑ˛˜8º»–êË1J$0d421fad-3f65-49ad-9b44-bbcc01584e66
+tcsharpsquid:S1125_"*Remove the unnecessary Boolean literal(s).(ÆÑ˛˜8Ω»–êË1J$48319d51-e623-4d6f-9d2e-2949860191c1
+ûcsharpsquid:S1118o"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(›ä≠˛¯ˇˇˇˇ8Ω»–êË1J$ab8086cd-7407-4518-aa8a-27f83e2e4b46
+ôcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(˚˝ùï8Ω»–êË1J$3b35f1a0-324e-46ea-9d53-a88dcc2bcbf8
+°csharpsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(˛ÿüñ¯ˇˇˇˇ8æ»–êË1J$47ea1ebf-ab32-4651-91a8-b42a240b0c80
+»csharpsquid:S1186i"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Ô˙û¸ˇˇˇˇ8æ»–êË1J$fabd2d2c-f4ca-4782-911b-f8c2888b2e69
+ycsharpsquid:S1066@"/Merge this if statement with the enclosing one.(Ù˙Úù8æ»–êË1J$8592974d-de9d-4f82-af58-986177558ceb
+écsharpsquid:S2589I"DChange this condition so that it does not always evaluate to 'True'.(ÆÑ˛˜8ø»–êË1J$bae767d7-b12b-4f12-8e69-781f3cb3b156
+ècsharpsquid:S2589>"EChange this condition so that it does not always evaluate to 'False'.(ﬁó·“8ø»–êË1J$e6a70ff4-e27f-44cd-ab32-8d25e2d84858
+∞csharpsquid:S2583%"fChange this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.(Õ ÎÃ8ø»–êË1J$0009ab28-8e22-43ed-9bb0-b51d65286e39
+ècsharpsquid:S25893"EChange this condition so that it does not always evaluate to 'False'.(≠»œœ8ø»–êË1J$9bf2956b-3514-4669-8ef1-7dfad0082cc5

@@ -1,3 +1,6 @@
+//1157 - char study
+//https://www.acmicpc.net/problem/1157
+
 namespace algo;
 
 class Program

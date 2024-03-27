@@ -1,3 +1,6 @@
+//2712-American Style
+//https://www.acmicpc.net/problem/2712
+
 using System.ComponentModel;
 
 namespace algo
