@@ -1,91 +1,81 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
-// 랜덤하게 배열을 나열해서, 처음부터 대조해 나가기
-// 다음 숫자와 현재 숫자가 일치하면 
-// 홀수일때 : 2로 나눈 몫+1 보다 크면 안됨
-// 짝수일때 : 2로 나눈 몫보다 크면 안됨
+//void ex();
+//{
+//	int i;
+//	int num[10] = { 0 };
+//	int data = 0;
+//
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("input an integer (0~9) : ");
+//		scanf("%d", &data);
+//		if (data > 10)
+//			break;
+//		num[data]++;
+//	}
+//
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d : %d번\n", i, num[i]);
+//	}
+//}
+
+int input();
+{
+	int std;
+	printf("학생 수 : ");
+	scanf("%d", &std);
+
+	return std;
+}
 
 
-int DATE = 10;
 
+int Score(std);
+{
+	int score_arr = { 0 };
+	int score = 0;
+	for (int i = 0; i < std; i++)
+	{
+		scanf("%d", &score);
+		score_arr[score]++;
+	}
+
+	return score_arr;
+}
+
+void Max(int n, int arr[]);
+{
+	int max, temp;
+	max = arr[0];
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] < max)
+		{
+			max = arr[i];
+			arr[i] = temp;
+			temp = max;
+		}
+	}
+	return max;
+}
 
 int main()
 {
-	int date;
-	scanf_s("%d", &date);
-	int a[100];
-	srand(time(NULL));
-	int x;
-	x = rand() & DATE;
-	a[0] = x;
-	int check[10] = { 0, };
-
-	int idx;
-	for (int j = 0; j < DATE; j++)
-	{
-		idx = a[j];
-		check[idx]++;
-	}
-
-	printf("중복된 원소 : ");
-	for(int j=0; j<10;j++)
-	{
-		if(check[j]>=2)
-		{
-			printf("%d", j);
-
-	for (int i = 0; i < DATE; i++)
-	{
-		
-	}
-	//int n = 1;
-	//while (n < DATE)
+	//int i;
+	//printf("Insert number : ");
+	//scanf("%d", &i);
+	//for (int j = i; j >= 0; j--)
 	//{
-	//	x = rand() % DATE;
-
-	//	int i = 0;
-	//	int isin = 0;
-	//	while (i < n)
+	//	for (int k = 1; k < j + 1; k++)
 	//	{
-	//		if (a[i] == x)
-	//		{
-	//			isin += 1;
-	//		}
-	//		i += 1;
+	//		printf("%d", k);
 	//	}
-	//	if (isin == 0)
-	//	{
-	//		a[n] = x;
-	//	}
-	//	else if (isin > 0)
-	//	{
-	//		continue;
-	//	}
-	//	n += 1;
-
-	//	int count = 0;
-	//	while (count < DATE)
-	//	{
-	//		printf("%d ", x[count] + 1);
-	//		count += 1;
-		}
-	}
-
-
-	//int* numPtr = malloc(sizeof(int) * DATE);
-	//
-	//for (int i = 0; i < DATE; i++)
-	//{
-	//	numPtr[i] = i;
+	//	printf("\n");
 	//}
-	//for (int i = 0; i < DATE; i++)
-	//{
-	//	printf("%d\n", numPtr[i]);
-	//}
-	//free(numPtr);
 
-	
+
+
 	return 0;
 }
